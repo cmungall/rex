@@ -20,7 +20,9 @@ tracker: https://github.com/cmungall/rex/issues
 activity_status: orphaned
 ---
 
-This repository preserves REX in a minimal ODK setup for archival, indexing, and mapping work.
+This is a rescue/preservation repository created in 2026 to keep REX available in a durable GitHub/ODK home.
+
+Chris Mungall provides repository hosting only and is not claiming original ownership or active scientific stewardship of REX.
 
 The edit file was derived on 2026-03-31 from an archived upstream OWL snapshot because the original CVS-based OBO source was no longer directly retrievable.
 The preserved rescued source snapshot is `src/ontology/upstream/rex-2017-11-19.owl`.
