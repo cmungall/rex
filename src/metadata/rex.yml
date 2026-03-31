@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/rex
+
+idspace: REX
+base_url: /obo/rex
+
+products:
+- rex.owl: https://raw.githubusercontent.com/cmungall/rex/main/rex.owl
+- rex.obo: https://raw.githubusercontent.com/cmungall/rex/main/rex.obo
+
+term_browser: ontobee
+example_terms:
+- REX_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/cmungall/rex/v
+
+- prefix: /tracker/
+  replacement: https://github.com/cmungall/rex/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/REX?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/cmungall/rex/main/
+
