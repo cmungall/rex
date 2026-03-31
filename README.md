@@ -8,6 +8,8 @@ It was created in March 2026 to keep REX available in a durable GitHub/ODK repos
 
 Chris Mungall (`cmungall`) is providing repository hosting and release automation only. He is not the original author, owner, or scientific maintainer of REX.
 
+Parent OBO Foundry tracking issue: [OBOFoundry/OBOFoundry.github.io#2881](https://github.com/OBOFoundry/OBOFoundry.github.io/issues/2881)
+
 Description: An ontology of physico-chemical processes, i.e. physico-chemical changes occurring in course of time.
 
 Original ontology page: http://obofoundry.org/ontology/rex
